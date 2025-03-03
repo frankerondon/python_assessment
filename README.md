@@ -21,10 +21,10 @@
 4.  **Ejecutar las migraciones:**
 
     4.1. **Abrir XAMPP y phpMyAdmin.**
+    
     4.2. **Editar el archivo `settings.py`:**
         * Abre `python_assessment\settings.py`.
         * Reemplaza la sección `DATABASES` con lo siguiente:
-
             
             DATABASES = {
                 'default': {
@@ -37,9 +37,10 @@
                 }
             }
             
-
     4.3. **Crear la base de datos `python_assessment` en phpMyAdmin.**
+    
     4.4. **Importar el archivo `python_assessment.sql` a la base de datos `python_assessment` en phpMyAdmin.**
+    
     4.5. **Ejecutar las migraciones de Django:**
 
         
