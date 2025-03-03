@@ -3,7 +3,7 @@
 1.  **Clonar el repositorio:**
 
     ```bash
-    git clone [https://github.com/frankerondon/python_assessment](https://github.com/frankerondon/python_assessment)
+    git clone https://github.com/frankerondon/python_assessment
     ```
 
 2.  **Navegar al directorio del proyecto:**
@@ -25,7 +25,7 @@
         * Abre `python_assessment\settings.py`.
         * Reemplaza la sección `DATABASES` con lo siguiente:
 
-            ```python
+            ```bash
             DATABASES = {
                 'default': {
                     'ENGINE': 'django.db.backends.mysql',
