@@ -25,7 +25,7 @@
         * Abre `python_assessment\settings.py`.
         * Reemplaza la sección `DATABASES` con lo siguiente:
 
-            ```bash
+            
             DATABASES = {
                 'default': {
                     'ENGINE': 'django.db.backends.mysql',
@@ -36,15 +36,15 @@
                     'PORT': '3306',
                 }
             }
-            ```
+            
 
     4.3. **Crear la base de datos `python_assessment` en phpMyAdmin.**
     4.4. **Importar el archivo `python_assessment.sql` a la base de datos `python_assessment` en phpMyAdmin.**
     4.5. **Ejecutar las migraciones de Django:**
 
-        ```bash
+        
         py manage.py migrate
-        ```
+        
 
 5.  **Ejecutar el servidor de desarrollo:**
 
