@@ -61,8 +61,9 @@
 
 1.  **Iniciar sesión como superusuario:**
 
-    * Abre tu navegador y ve a `http://127.0.0.1:8000/admin`.
-    * Ingresa las credenciales de superusuario:
+    Abre tu navegador y ve a `http://127.0.0.1:8000/admin`.
+    
+    Ingresa las credenciales de superusuario:
         * **Usuario:** `frankerportatil`
         * **Contraseña:** `uno_dos_y3`
 
