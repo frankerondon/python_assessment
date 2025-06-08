@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 03, 2025 at 10:15 AM
+-- Generation Time: Jun 08, 2025 at 11:46 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -124,13 +124,13 @@ CREATE TABLE `auth_user` (
 --
 
 INSERT INTO `auth_user` (`id`, `password`, `last_login`, `is_superuser`, `username`, `first_name`, `last_name`, `email`, `is_staff`, `is_active`, `date_joined`) VALUES
-(1, 'pbkdf2_sha256$600000$023wGcQAqQbjGU3TZGUn7C$+qslQVQBkVtoZ+D7Vw11yDfCpwrevOX+bqagl6x1cyo=', '2025-03-03 05:12:42.464236', 0, 'franker', 'Frank', 'Rondon', 'mail@mail.com', 0, 1, '2025-03-02 04:14:42.715968'),
-(2, 'pbkdf2_sha256$600000$w6jmOHfCdsG1wr6Rm1YWTl$hBZQVw1tU0z3jkej85SA60pCHcXtJv1pXY2JXPVz05I=', '2025-03-03 08:56:31.398913', 1, 'frankerportatil', '', '', 'mail1@mail.com', 1, 1, '2025-03-02 04:19:11.491877'),
+(1, 'pbkdf2_sha256$600000$023wGcQAqQbjGU3TZGUn7C$+qslQVQBkVtoZ+D7Vw11yDfCpwrevOX+bqagl6x1cyo=', '2025-03-04 00:34:09.263936', 0, 'franker', 'Frank', 'Rondon', 'mail@mail.com', 0, 1, '2025-03-02 04:14:42.715968'),
+(2, 'pbkdf2_sha256$600000$IZq1nDGmjtEqj37UXJnnF4$wkE+f/+j2u93RfaEbb1Lv1DUNof9yt0xWxEnVuA2eDg=', '2025-06-08 21:44:30.331244', 1, 'admin', '', '', 'admin@mail.com', 1, 1, '2025-03-02 04:19:11.491877'),
 (3, 'pbkdf2_sha256$600000$8QSH3lcCoNZguyAx1YxbNk$92LF+0LAN51S71CjIGKnj4D6R2GpDGQ1P1QXS+4+5qU=', '2025-03-02 07:10:33.188044', 0, 'emi', 'Emi', 'House', 'risus@yahoo.ca', 0, 1, '2025-03-02 07:09:17.208082'),
 (4, 'pbkdf2_sha256$600000$L0ywLplvMdeJK83uz3Q3ZC$TNUigwzhLlZ3U2OR6W2J8RLVsGAolbwfDmv9CwnfC14=', '2025-03-03 04:25:31.309080', 0, 'srico', 'Jose', 'Echevarria', 'srico@hidalgo.net', 0, 1, '2025-03-03 02:26:52.728907'),
 (5, 'pbkdf2_sha256$600000$VxmxCJnUSCsi8eFj7ZD2xF$JB0Z3HMOx2QYgGvqGzP9kDl8wqneyYIvZSQ4SPKZ5Lo=', NULL, 0, 'ander28', 'Dario', 'Granado', 'ander28@yahoo.com', 0, 1, '2025-03-03 02:27:34.816669'),
-(6, 'pbkdf2_sha256$600000$Gjo27mwFbikJAwjleAugAh$9lXpsjdtUUpqOwLbS9UeEfPBNKza30NWGkBhkGsa4OY=', NULL, 0, 'rivero.manuela', 'Jan', 'Lucero', 'rivero.manuela@mejia.com.ve', 0, 1, '2025-03-03 02:28:17.237210'),
-(7, 'pbkdf2_sha256$600000$qklw20f7KgOyUKHnhazcvw$pf1khIbYf5J5SD7DxQnt9FQBYPVAkouNKoXtiFi7axQ=', '2025-03-03 04:33:00.881793', 0, 'emoreno', 'Noelia', 'Nieto', 'emoreno@gallego.org', 0, 1, '2025-03-03 02:29:09.931532'),
+(6, 'pbkdf2_sha256$600000$Gjo27mwFbikJAwjleAugAh$9lXpsjdtUUpqOwLbS9UeEfPBNKza30NWGkBhkGsa4OY=', '2025-05-12 14:05:17.506049', 0, 'rivero.manuela', 'Jan', 'Lucero', 'rivero.manuela@mejia.com.ve', 0, 1, '2025-03-03 02:28:17.237210'),
+(7, 'pbkdf2_sha256$600000$qklw20f7KgOyUKHnhazcvw$pf1khIbYf5J5SD7DxQnt9FQBYPVAkouNKoXtiFi7axQ=', '2025-05-12 06:34:18.739278', 0, 'emoreno', 'Noelia', 'Nieto', 'emoreno@gallego.org', 0, 1, '2025-03-03 02:29:09.931532'),
 (8, 'pbkdf2_sha256$600000$H8jCnQL0NjfngmbUDlISL7$MrIZ0F47Ses67yGSzoAsSLQoF/POHrxVxwi1MdKX5XU=', '2025-03-03 04:16:17.615965', 0, 'ojeda.ariadna', 'Leonardo', 'Blasco', 'ojeda.ariadna@latinmail.com', 0, 1, '2025-03-03 02:29:44.929596'),
 (9, 'pbkdf2_sha256$600000$3Dh8ixN4bgwgXIAiLpPkWJ$U3leFiS7cjunrtrWhjLc99wKt74hf7O9+kRciDcl5zY=', '2025-03-03 08:01:37.328172', 0, 'idelafuente', 'Eduardo', 'Villaseñor', 'idelafuente@zepeda.web.ve', 0, 1, '2025-03-03 02:30:18.086690'),
 (10, 'pbkdf2_sha256$600000$9dxBKFUdtX3MyTMej2qEXg$VNEjYscii4qPLJF7K/um6YcBxSO8ucSGo1Afp9WacJQ=', '2025-03-03 07:05:50.488463', 0, 'eduardo66', 'Naiara', 'Ibáñez', 'eduardo66@terra.com', 0, 1, '2025-03-03 02:30:44.652160'),
@@ -300,9 +300,11 @@ CREATE TABLE `django_session` (
 
 INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES
 ('4360lll9g6q7kiuignu61isef822xexf', '.eJxVjMEOwiAQRP-FsyFgoYJH7_0GsssuUjWQlPZk_Hdp0oPeJvPezFsE2NYctsZLmElchRGn3w4hPrnsgB5Q7lXGWtZlRrkr8qBNTpX4dTvcv4MMLfc168G56F0aiNkiAfkRHSSrLJ8jm2Q7SjZ5FS_YM-lxMIbQk9LgPYjPFxCvOOQ:1toxMx:kvnGMy_oDrtXatyB_F_Lpl_B-j3xt78GAvyWVTieSoc', '2025-03-17 04:25:31.328240'),
+('a6ks1hpnrllnve8v3aj5180tkj4p5oyv', '.eJxVjDkOwjAURO_iGlnev0NJnzNY3xsOIFuKkwpxdxwpBVQjzXszb-Jw34rbe1rdEsmVALn8dh7DM9UDxAfWe6Oh1W1dPD0UetJO5xbT63a6fwcFexlrxTKXPEk_YtLAmDDAM2eTtVKhBQg5B2GUAPCgubfeJDTDjUMyoMnnC7ByNo4:1uEMjy:VYO71WGPOAiJa9xDgJ8FKsbmWMA31LPdm-TEgaSOTLE', '2025-05-26 06:34:18.745305'),
 ('af5p3ld4b8qk1goqo8gpdudj278coz3l', '.eJxVjEEOwiAQRe_C2hBmUgbq0r1nIAwDUjU0Ke3KeHdt0oVu_3vvv1SI21rD1vMSJlFnher0u3FMj9x2IPfYbrNOc1uXifWu6IN2fZ0lPy-H-3dQY6_fGgYWy2hARiQxSJA55ZI8sGVHxdDgjEfE0YMtDAyFHJNLwGSNd-r9Adb7NzY:1tp0vG:D6UqIAgTDd6Nl-1tCXThpzNuaqVEm_4K4blzd7qUTe8', '2025-03-17 08:13:10.557788'),
 ('cd4dwq8711o3tttwylij7el2fc8ybkb9', '.eJxVjDkOwjAURO_iGlnev0NJnzNY3xsOIFuKkwpxdxwpBVQjzXszb-Jw34rbe1rdEsmVALn8dh7DM9UDxAfWe6Oh1W1dPD0UetJO5xbT63a6fwcFexlrxTKXPEk_YtLAmDDAM2eTtVKhBQg5B2GUAPCgubfeJDTDjUMyoMnnC7ByNo4:1toxUC:64VlsSf0psjeTZoXLInEq0wRDKHgTGcVewA2a_3fRoE', '2025-03-17 04:33:00.887445'),
 ('eje4o2czntvbawf4fxzuvlwpvmbhukdl', '.eJxVjDsOwjAQBe_iGlkbf2Kbkp4zWG-9FgmgRIqTCnF3iJQC2jcz76UytnXIW6tLHkWdVUfq9DsyyqNOO5E7ptusyzyty8h6V_RBm77OUp-Xw_07GNCGb50CB6kAg7kkUxAI6IPE3pITn6gAjoRgYiBjKXYO1vrQsY8GhdX7AyktODc:1tozs6:QOelZZ5FLqBSU5Kav2KPS82C7PfCx2W_kzqyzGWrvmk', '2025-03-17 07:05:50.494240'),
+('kcbj945j8207tfjzu4giz0fa1lfnsybb', '.eJxVjEEOwiAQRe_C2hBmUgbq0r1nIAwDUjU0Ke3KeHdt0oVu_3vvv1SI21rD1vMSJlFnher0u3FMj9x2IPfYbrNOc1uXifWu6IN2fZ0lPy-H-3dQY6_fGgYWy2hARiQxSJA55ZI8sGVHxdDgjEfE0YMtDAyFHJNLwGSNd-r9Adb7NzY:1tpGFm:Cd4LXxLkkySGJej_5jVDwJMtvF8BLLl3k9S6WZoew70', '2025-03-18 00:35:22.074261'),
 ('kr4mfnk96hd97uj5x1plgxp0wn3t9gh2', '.eJxVjM0OwiAQhN-FsyH8lAU9evcZyC4LUjU0Ke3J-O62SQ96m8z3zbxFxHWpce15jiOLi9AgTr8lYXrmthN-YLtPMk1tmUeSuyIP2uVt4vy6Hu7fQcVet3UxBrT2FmBL1pgCnDgMjsAF4kSszsohW6ZibXLFBoJBOc-oMYfgxecL-U04BA:1toztu:CT5zYaOhMmcI_GtJqvspO4AzS-fodHLeXH6ttzT_vQo', '2025-03-17 07:07:42.382701'),
 ('wvbpx4m7a68bkadk383a3hlulajqbcne', '.eJxVjEEOwiAQRe_C2hBmUgbq0r1nIAwDUjU0Ke3KeHdt0oVu_3vvv1SI21rD1vMSJlFnher0u3FMj9x2IPfYbrNOc1uXifWu6IN2fZ0lPy-H-3dQY6_fGgYWy2hARiQxSJA55ZI8sGVHxdDgjEfE0YMtDAyFHJNLwGSNd-r9Adb7NzY:1toseS:oLvyujBdD_6NKYYbKNsbcpTLgqlrtNSYlG42ysSmnv0', '2025-03-16 23:23:16.533352');
 
@@ -359,6 +361,7 @@ CREATE TABLE `profiles_userhistory_history` (
 --
 
 INSERT INTO `profiles_userhistory_history` (`id`, `userhistory_id`, `video_id`) VALUES
+(105, 1, 1),
 (61, 1, 9),
 (1, 2, 1),
 (9, 2, 2),
@@ -367,10 +370,12 @@ INSERT INTO `profiles_userhistory_history` (`id`, `userhistory_id`, `video_id`) 
 (69, 2, 5),
 (68, 2, 6),
 (22, 2, 7),
+(110, 2, 8),
 (65, 2, 9),
 (62, 2, 10),
 (96, 2, 13),
 (93, 2, 14),
+(108, 2, 17),
 (98, 2, 21),
 (20, 3, 1),
 (44, 4, 1),
@@ -378,6 +383,7 @@ INSERT INTO `profiles_userhistory_history` (`id`, `userhistory_id`, `video_id`) 
 (51, 7, 1),
 (52, 7, 3),
 (48, 7, 8),
+(107, 7, 11),
 (43, 8, 5),
 (40, 8, 6),
 (42, 8, 9),
@@ -459,23 +465,23 @@ CREATE TABLE `videos_video` (
 --
 
 INSERT INTO `videos_video` (`id`, `title`, `views`, `author`, `youtube_id`, `thumbnail_url`, `slug`, `active`, `created_at`) VALUES
-(1, 'Barrieron el piso con Zelensky', 48, 'N Noticias', 'e1t_t2ZCZM4', 'https://img.youtube.com/vi/e1t_t2ZCZM4/mqdefault.jpg', '1', 1, '2025-03-02'),
+(1, 'Barrieron el piso con Zelensky', 51, 'N Noticias', 'e1t_t2ZCZM4', 'https://img.youtube.com/vi/e1t_t2ZCZM4/mqdefault.jpg', '1', 1, '2025-03-02'),
 (2, 'Se prendio la casa blanca', 11, 'Politica Visual', '52RyXr_XoLA', 'https://img.youtube.com/vi/52RyXr_XoLA/mqdefault.jpg', '2', 1, '2025-03-02'),
 (3, 'Fallecio una actriz de hollywood', 10, 'delcarajotv', '5AZDcaJYxCI', 'https://img.youtube.com/vi/5AZDcaJYxCI/mqdefault.jpg', '3', 1, '2025-03-02'),
 (4, 'Qué hizo FRANCO por las lenguas de España?', 6, 'Linguriosa', 'WW4D-1Sa-r8', 'https://img.youtube.com/vi/WW4D-1Sa-r8/mqdefault.jpg', '4', 1, '2025-03-02'),
-(5, 'La oscura noche de George Harris en el Festival de Viña 2025', 8, 'Mega noticias', 'c9hLIKlF8Bk', 'https://img.youtube.com/vi/c9hLIKlF8Bk/mqdefault.jpg', '5', 1, '2025-03-02'),
-(6, 'MARKETING HUMILDE', 9, 'zirancomms', '0I1YhwNKoF0', 'https://img.youtube.com/vi/0I1YhwNKoF0/mqdefault.jpg', '6', 1, '2025-03-02'),
+(5, 'La oscura noche de George Harris en el Festival de Viña 2025', 10, 'Mega noticias', 'c9hLIKlF8Bk', 'https://img.youtube.com/vi/c9hLIKlF8Bk/mqdefault.jpg', '5', 1, '2025-03-02'),
+(6, 'MARKETING HUMILDE', 10, 'zirancomms', '0I1YhwNKoF0', 'https://img.youtube.com/vi/0I1YhwNKoF0/mqdefault.jpg', '6', 1, '2025-03-02'),
 (7, 'COCHES PROHIBIDOS', 7, 'Garaje Hermanos', 'UL_eA8fFoz0', 'https://img.youtube.com/vi/UL_eA8fFoz0/mqdefault.jpg', '7', 1, '2025-03-02'),
-(8, 'La Mejor Peli Latinoamericana de Adolescentes', 11, 'Coffe TV', 'zL23r7hJ4zc', 'https://img.youtube.com/vi/zL23r7hJ4zc/mqdefault.jpg', '8', 1, '2025-03-02'),
+(8, 'La Mejor Peli Latinoamericana de Adolescentes', 12, 'Coffe TV', 'zL23r7hJ4zc', 'https://img.youtube.com/vi/zL23r7hJ4zc/mqdefault.jpg', '8', 1, '2025-03-02'),
 (9, '¿Qué DIABLOS pasó con ACCLAIM?', 8, 'Cultura VJ', 'xuP_rqsJeNI', 'https://img.youtube.com/vi/xuP_rqsJeNI/mqdefault.jpg', '9', 1, '2025-03-02'),
 (10, 'Why Did 2000s Games Look Like That?', 4, 'ExtraMintyy', '5tV3nDPQAyI', 'https://img.youtube.com/vi/5tV3nDPQAyI/mqdefault.jpg', '10', 1, '2025-03-02'),
-(11, 'Why the Soviet Union was obsessed with corn', 0, 'PhilEdwardsInc', '9w7WrXsHkIQ', 'https://img.youtube.com/vi/9w7WrXsHkIQ/mqdefault.jpg', '11', 1, '2025-03-03'),
+(11, 'Why the Soviet Union was obsessed with corn', 1, 'PhilEdwardsInc', '9w7WrXsHkIQ', 'https://img.youtube.com/vi/9w7WrXsHkIQ/mqdefault.jpg', '11', 1, '2025-03-03'),
 (12, 'How Stellantis Destroyed Jeep', 0, 'more perfect union', 'Lb_mSTnnEaQ', 'https://img.youtube.com/vi/Lb_mSTnnEaQ/mqdefault.jpg', '12', 1, '2025-03-03'),
 (13, '????GLORIA ÁLVAREZ: Inicios, auge y CAÍDA (IMPERDIBLE)', 3, 'soldado cultural', 'ODz9E-YvbYo', 'https://img.youtube.com/vi/ODz9E-YvbYo/mqdefault.jpg', '13', 1, '2025-03-03'),
 (14, 'No soy mejor amiga de nadie', 4, 'kykyvlogs', '4rtDhBCC9QE', 'https://img.youtube.com/vi/4rtDhBCC9QE/mqdefault.jpg', '14', 1, '2025-03-03'),
 (15, 'La Expo de Tecnología MAS IMPRESIONANTE DEL MUNDO', 0, 'max y noelia', 'LsG2fd0HwMU', 'https://img.youtube.com/vi/LsG2fd0HwMU/mqdefault.jpg', '15', 1, '2025-03-03'),
 (16, '¿Por qué Estados Unidos es rico e Hispanoamérica pobre?', 0, 'Brigada Antifraude', 'bT6EpuONsIo', 'https://img.youtube.com/vi/bT6EpuONsIo/mqdefault.jpg', '16', 1, '2025-03-03'),
-(17, 'SH*TFLATION', 0, 'Micro Econ YT', '2JoWfQKQAzc', 'https://img.youtube.com/vi/2JoWfQKQAzc/mqdefault.jpg', '17', 1, '2025-03-03'),
+(17, 'SH*TFLATION', 1, 'Micro Econ YT', '2JoWfQKQAzc', 'https://img.youtube.com/vi/2JoWfQKQAzc/mqdefault.jpg', '17', 1, '2025-03-03'),
 (18, 'Una ciudad dentro de una ciudad', 3, 'erikpastran', 'IK_VZpOg3yU', 'https://img.youtube.com/vi/IK_VZpOg3yU/mqdefault.jpg', '18', 1, '2025-03-03'),
 (19, 'El Problema del Turismo \"INSTAGRAMEABLE\"', 0, 'factualidad', '5UqV6V51ZXw', 'https://img.youtube.com/vi/5UqV6V51ZXw/mqdefault.jpg', '19', 1, '2025-03-03'),
 (20, 'Courtney Love: The Girl With The Most Cake', 0, 'antiheroines', 'bm47xADL0Tw', 'https://img.youtube.com/vi/bm47xADL0Tw/mqdefault.jpg', '20', 1, '2025-03-03'),
@@ -782,7 +788,7 @@ ALTER TABLE `profiles_userhistory`
 -- AUTO_INCREMENT for table `profiles_userhistory_history`
 --
 ALTER TABLE `profiles_userhistory_history`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=105;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=112;
 
 --
 -- AUTO_INCREMENT for table `videos_comment`
@@ -806,7 +812,7 @@ ALTER TABLE `videos_video_dislikes`
 -- AUTO_INCREMENT for table `videos_video_likes`
 --
 ALTER TABLE `videos_video_likes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=69;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=70;
 
 --
 -- Constraints for dumped tables
